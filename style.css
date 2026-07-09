@@ -1,3 +1,69 @@
-body{
-    background-color: antiquewhite;
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+/* nav section start */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 120px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    margin-right: 80px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.common-btn{
+    background-color: #103be7;
+    padding: 10px 17px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.common-btn:hover {
+    background: rgb(139, 165, 243);
+    cursor: pointer;
+}
+/* start hero section */
+.hero {
+    height: 100vh;
+    background-image: url("./assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    max-width: 100%;
+}
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    /* margin-bottom: 200px; */
+}
+.hero-heading{
+    font-weight: bold;
+    font-size: 4rem;
+    /* margin-top: 200px; */
+}
+.hero-button{
+    margin-top: 100px;
 }
