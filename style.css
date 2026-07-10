@@ -9,7 +9,7 @@
     justify-content: space-between;
     padding: 10px 120px;
 }
-ul{
+.item-container ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -111,3 +111,136 @@ ul li a{
     font-weight: bold;
     font-size: 14px;
 }
+/* pricing section */
+
+.pricing{
+    width: 75%;
+    margin: 80px auto;
+}
+.pricing-head{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.price-card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.card{
+    background-color: rgb(245, 245, 245);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px 15px;
+    height: 350px;
+    max-width: 300px;
+}
+.pro{
+    background-color: rgb(4, 4, 41);
+    color: white;
+}
+.card ul{
+    padding-left: 15px;
+}
+.card li{
+    margin-bottom: 12px;
+    line-height: 1.2;
+}
+
+.card li::marker{
+    color: #2563eb;
+}
+.card p{
+    margin: 0;
+}
+
+.card h1{
+    margin: 2px 0;
+}
+.card-header{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.out-btn{
+    display: block;
+    width: 180px;
+    margin: 25px auto 0;
+    padding: 10px;
+    border: 1px solid #2563eb;
+    border-radius: 8px;
+    background: #fff;
+    color: #2563eb;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+.in-btn{
+    display: block;
+    width: 180px;
+    margin: 25px auto 0;
+    padding: 10px;
+    border: 1px solid #c9d7f4;
+    border-radius: 8px;
+    background: #0715d5;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+.in-btn:hover{
+    background-color: rgb(137, 153, 245);
+}
+.out-btn:hover{
+    background-color: rgb(242, 243, 247);
+}
+ /* .card{
+    width: 320px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background: #fff;
+}
+
+.plan-name{
+    margin-bottom: 8px;
+    color: #666;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.card h1{
+    margin: 0;
+    font-size: 50px;
+}
+
+.card h1 + p{
+    margin-top: 6px;
+    color: #666;
+}
+
+.card ul{
+    padding-left: 18px;
+    margin: 25px 0;
+}
+
+.card li{
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+.card li::marker{
+    color: #2563eb;
+}
+
+.card button{
+    display: block;
+    width: 180px;
+    margin: 25px auto 0;
+    padding: 12px;
+    border: 1px solid #2563eb;
+    border-radius: 8px;
+    background: #fff;
+    color: #2563eb;
+    font-weight: 600;
+    cursor: pointer;
+} */
