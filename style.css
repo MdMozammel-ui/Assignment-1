@@ -62,7 +62,7 @@ ul li a{
 .hero-heading{
     font-weight: bold;
     font-size: 4rem;
-    /* margin-top: 200px; */
+    /* margin-top: 1px; */
 }
 .hero-button{
     margin-top: 100px;
@@ -193,54 +193,38 @@ ul li a{
 .out-btn:hover{
     background-color: rgb(242, 243, 247);
 }
- /* .card{
-    width: 320px;
+/* venue section */
+.venue{
+    width: 100%;
+    height: 500px;
+
+    background-image: url("./assets/vanue.webp");
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 20px;
+    overflow: hidden;
+
+    position: relative;
+}
+.magic{
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,.60);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
     padding: 30px;
-    border: 1px solid #ddd;
-    border-radius: 12px;
-    background: #fff;
+}
+.magic h1{
+    font-weight: bold;
+    font-size: 3.5rem;
+    margin-bottom: 15px;
 }
 
-.plan-name{
-    margin-bottom: 8px;
-    color: #666;
-    font-size: 13px;
-    font-weight: 700;
+.magic h3{
+    font-size: 28px;
 }
-
-.card h1{
-    margin: 0;
-    font-size: 50px;
-}
-
-.card h1 + p{
-    margin-top: 6px;
-    color: #666;
-}
-
-.card ul{
-    padding-left: 18px;
-    margin: 25px 0;
-}
-
-.card li{
-    margin-bottom: 12px;
-    line-height: 1.6;
-}
-
-.card li::marker{
-    color: #2563eb;
-}
-
-.card button{
-    display: block;
-    width: 180px;
-    margin: 25px auto 0;
-    padding: 12px;
-    border: 1px solid #2563eb;
-    border-radius: 8px;
-    background: #fff;
-    color: #2563eb;
-    font-weight: 600;
-    cursor: pointer;
-} */
