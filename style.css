@@ -1,13 +1,13 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
+body{
+    font-family: inter;
+ }
+
 /* nav section start */
 .nav-container{
     display: flex;
     justify-content: space-between;
     padding: 10px 120px;
+    background-color: #eeebeb;
 }
 .item-container ul{
     display: flex;
@@ -57,65 +57,67 @@ ul li a{
     align-items: center;
     text-align: center;
     color: aliceblue;
-    /* margin-bottom: 200px; */
+
 }
 .hero-heading{
     font-weight: bold;
     font-size: 4rem;
-    /* margin-top: 1px; */
+  
 }
 .hero-button{
     margin-top: 100px;
 }
 
+/* speaker section */
+
  .speaker-container {
-    width: 85%;
-    margin: 80px auto;
+    width: 80%;
+    margin: 50px auto;
 }
 
 .speaker-heading {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 
 .box-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 25px;
+    gap: 20px;
 }
 
 .box {
     border: 1px solid #ddd;
     border-radius: 10px;
     overflow: hidden;
-    background: #fff;
 }
 
 .box img {
     width: 100%;
-    height: 280px;
+    height: 250px;
     object-fit: cover;
     display: block;
 }
 
 .small-box {
     padding: 20px;
+    font-size: 12px;
+    background-color: #eceeee;
 }
 
 .small-box h2 {
-    margin: 10px 0;
+    margin: 2px 0;
 }
 
 .small-box p:first-child {
     color: blue;
-    font-weight: bold;
-    font-size: 14px;
+    font-size: 10px;
 }
 /* pricing section */
 
 .pricing{
-    width: 75%;
-    margin: 80px auto;
+    width: 80%;
+    margin: 10px auto;
 }
 .pricing-head{
     text-align: center;
@@ -131,8 +133,8 @@ ul li a{
     border: 1px solid black;
     border-radius: 10px;
     padding: 15px 15px;
-    height: 350px;
-    max-width: 300px;
+    font-size: 0.85rem;
+    width:92%;
 }
 .pro{
     background-color: rgb(4, 4, 41);
@@ -197,12 +199,11 @@ ul li a{
 .venue{
     width: 100%;
     height: 500px;
+    margin-top: 50px;
 
     background-image: url("./assets/vanue.webp");
     background-size: cover;
     background-position: center;
-
-    border-radius: 20px;
     overflow: hidden;
 
     position: relative;
@@ -227,4 +228,59 @@ ul li a{
 
 .magic h3{
     font-size: 28px;
+}
+
+/* footer */
+.footer{
+    background-color: #212b42;
+    color: #fff;
+    padding: 35px 8%;
+    margin: 45px 0 0;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.footer-logo img{
+    width: 35%;
+}
+
+.footer-social{
+    display: flex;
+    gap: 18px;
+}
+
+.footer-social a{
+    width: 45px;
+    height: 45px;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.footer-social a:hover{
+    background: #ff6b35;
+    border-color: #ff6b35;
+    transform: translateY(-5px);
+}
+
+.footer hr{
+    border: none;
+    height: 1px;
+    background: rgba(255,255,255,0.2);
+    margin: 35px 0 20px;
+}
+.footer-bottom p{
+    color: #cbd5e1;
+    font-size: 14px;
+    text-align: center;
 }
